@@ -9,8 +9,8 @@ function GenerateNewText() {
   // Add property to the object
   this.sentences =
     [
-      "Do you see me on the phone?",
-			"Be home before the street lights come on.",
+       "Do you see me on the phone?",
+			 "Be home before the street lights come on.",
 			"Huh, you must not be hungry, then.",
 			"Imma give you something to cry about.",
 			"Quit running around this house like you ain't got no goddamn sense!",
@@ -18,7 +18,7 @@ function GenerateNewText() {
 			"My roof, my rules.",
 			"Ima Pusha yo T if you don't do that homework!",
 			"Name to me what bills you pay in my house.",
-			"Do you pay my bills?",
+			 "Do you pay my bills?",
 			"Do you pay my telephone bills?",
 			"Do you pay my automo-bills?",
 			"I brought you into this world and I will take you out.",
@@ -41,9 +41,9 @@ function GenerateNewText() {
 			"I will knock you into the middle of next week.",
 			"Do you understand me?",
 			"Get out my mouth, this grown folks' business.",
-			"Don't you slam no doors in my  house!",
+			 "Don't you slam no doors in my  house!",
 			"Pick or choose, you either gon stay in or stay out.",
-			"Where you act up is where you get beat up.",
+			 "Where you act up is where you get beat up.",
 			"Do you got Aeropostale money?",
 			"You got McDonald's money?",
 			"You got hospital money?",
@@ -52,12 +52,12 @@ function GenerateNewText() {
 			"God don’t like ugly!",
 			"I'm not one of your little friends",
 			"Stop all that crying before I give you something to cry about.",
-		"First of all, check your tone.",
-		"I hope you know that school work like you know them songs.",
-		"When we get in this store, don't touch nothin'.",
-		"Fix your face.",
-		"Keep playing and see what happens.",
-		"I brought you in this world, and I can take you out."
+			"First of all, check your tone.",
+			"I hope you know that school work like you know them songs.",
+			"When we get in this store, don't touch nothin'.",
+			 "Fix your face.",
+			 "Keep playing and see what happens.",
+			"I brought you in this world, and I can take you out."
    ];
 }
 
@@ -99,4 +99,7 @@ GenerateNewText.prototype.getAllParagraphs = function(numberOfParagraphs) {
   return paragraphHTML;
 }
 
+
 module.exports = loremIpsum;
+//export default loremIpsum;
+//module.exports = GenerateNewText;
