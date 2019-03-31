@@ -10,8 +10,10 @@ For any Black dev who needs the ultimate filler text.
  <br/>
 
  ## Images of App:
- ![ImgName#1](https://drive.google.com/uc?export=view&id=1rJyo12iCAkp7viEQ20KHCXh1ASB4FkE7)
+ ![ImgName#1](google drive image link)
+ <br/>
  ![ImgName#2](google drive image link)
+ <br/>
  ![ImgName#3](google drive image link)
  
 
