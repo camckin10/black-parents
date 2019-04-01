@@ -1,4 +1,4 @@
-# Stuff Black Parents Say Lorem Ipsum Generator
+# Black Parents Lorem Ipsum Generator
 A Lorem Ipsum generation full of Black Parent Sayings. 
 For any Black dev who needs the ultimate filler text.
  
