@@ -4,26 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--bootstrap 4 link-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!--link to stylesheet-->
 	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<!--Noto Sans Google Font link-->
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:700" rel="stylesheet">
 	<title>Black Parent lorem ipsum generator</title>
 </head>
 <body>
-	<!--will need the following things:
-	link to stylesheet,title,description,form to generate paragraphs,div for lorem ipsum text-->
 
-	<h1 class="title"> Stuff Black Parents Say Lorem Ipsum Generator</h1>
+<div class="row">
+	<div class="col-lg-12">
+		<h1 class="title"> BLACK PARENT LOREM IPSUM GENERATOR</h1>
+		<h2>a.k.a "Sh**t Black Parents Say" Lorem Ipsum Generator</h2>
+	</div>
+</div>
 
-    <p class="description">A lorem ipsum generator for all the Black devs. </p>
+	<hr/>
+<div class="row">
+	<div class="col-lg-12">
+		<p>Select the number of paragraphs to generate the text.</p>
+			<form action="/" method="POST">
+				<input type="number" class="paragraph-number" name="numberOfParagraphs">
+				<input type="submit" value="Generate" class="generate-button">
+			</form>
 
-    <form action="/" method="POST">
-      <input type="number" class="paragraph-number" name="numberOfParagraphs">
-      <input type="submit" value="Generate" class="generate-button">
-    </form>
-
-    <div class="generated-text">
-      <div class='placeholder-div'></div>
-    </div>
-
+			<div class="generated-text">
+				<div class='placeholder-div'></div>
+			</div>
+	</div>
+</div>
+		<!--This will be the footer area-->
+		<!--include the social media links here-->
+		<hr/>
+		 <p class="description">Dedicated to all the Black devs.</p>
 </body>
 </html>
