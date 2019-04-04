@@ -10,7 +10,7 @@ const hostname = "127.0.0.1";
 const port = process.env.PORT || 3000;
 
 // Define the directory where static files are found
-app.use(express.static('/public'));
+app.use(express.static('public'));
 
 // Specify the routes to be used for our application 
 app.use(routes);
