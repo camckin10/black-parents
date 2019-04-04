@@ -1,10 +1,21 @@
 body{
 	/*black family background looks cheesy*/
-	background-image:url() ;
+	background-color:black;
 	font-family: 'Noto Sans', sans-serif;
+	color:white;
 	text-align:center;
 }
 
 .row{
 	text-align:center;
+}
+
+.header-section{
+	padding-top:30px;
+}
+
+/*box to hold  generated text*/
+.generated-text{
+	border:2px solid royalblue;
+
 }
