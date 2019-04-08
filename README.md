@@ -11,7 +11,7 @@ For any Black dev who needs the ultimate filler text.
 
  ## Images of App:
  ![Lorem Ipsum Title]
- (././images/loremTitle.png)
+ (../images/loremTitle.png)
  (https://drive.google.com/uc?export=view&id=1bupO-WZCUVbzAKFBEJHrvv2wAOtpPfPR)
  <br/>
  ![Full Generator Picture]
