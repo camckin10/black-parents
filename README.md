@@ -4,8 +4,7 @@ For any Black dev who needs the ultimate filler text.
  
  <br/>
 
- App Deployment can be viewed here: [black-parent]
- (deployment link here)
+ App Deployment can be viewed here: [black-parent](https://secret-temple-73467.herokuapp.com/)
  *
  <br/>
 
