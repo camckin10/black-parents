@@ -19,5 +19,8 @@
   "homepage": "https://github.com/camckin10/black-parents#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "foreman": "^3.0.1"
   }
 }
