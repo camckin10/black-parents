@@ -1,6 +1,7 @@
 body{
 	/*black family background looks cheesy*/
-	background-color:black;
+	background-color: black;
+	/* background-image: url('images/small_black_collage.png'); */
 	font-family: 'Noto Sans', sans-serif;
 	color:white;
 	text-align:center;

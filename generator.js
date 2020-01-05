@@ -10,7 +10,7 @@ function GenerateNewText() {
   this.sentences =
     [
        "Do you see me on the phone?",
-			 "Be home before the street lights come on.",
+			"Be home before the street lights come on.",
 			"Huh, you must not be hungry, then.",
 			"Imma give you something to cry about.",
 			"Quit running around this house like you ain't got no goddamn sense!",
@@ -18,7 +18,7 @@ function GenerateNewText() {
 			"My roof, my rules.",
 			"Ima Pusha yo T if you don't do that homework!",
 			"Name to me what bills you pay in my house.",
-			 "Do you pay my bills?",
+			"Do you pay my bills?",
 			"Do you pay my telephone bills?",
 			"Do you pay my automo-bills?",
 			"I brought you into this world and I will take you out.",
@@ -55,15 +55,15 @@ function GenerateNewText() {
 			"First of all, check your tone.",
 			"I hope you know that school work like you know them songs.",
 			"When we get in this store, don't touch nothin'.",
-			 "Fix your face.",
-			 "Keep playing and see what happens.",
+			"Fix your face.",
+			"Keep playing and see what happens.",
 			"I brought you in this world, and I can take you out."
    ];
 }
 
 // Method to the GenerateNewText constructor function that generates a random sentence
 GenerateNewText.prototype.getRandomSentence = function() {
-  let randomSentence = this.sentences[Math.floor(Math.random() * this.sentences.length)]
+  let randomSentence = this.sentences[Math.floor(Math.random() * 10)]
 	return randomSentence;
 }
 
@@ -71,7 +71,7 @@ GenerateNewText.prototype.getRandomSentence = function() {
 GenerateNewText.prototype.getParagraph = function() {
   let paragraph = "";
   // Set the minimum number of words
-  let minimumCharacterLength = 250;
+  let minimumCharacterLength = 10;
   let firstSentence = true;
   while (paragraph.length < minimumCharacterLength) {
     if (firstSentence) {
