@@ -1,10 +1,9 @@
 body{
 	/*black family background looks cheesy*/
-	background-color: black;
+	background-color:white;
 	/* background-image: url('images/small_black_collage.png'); */
 	font-family: 'Noto Sans', sans-serif;
-	color:white;
-	text-align:center;
+	color:black;
 }
 
 .row{
@@ -12,11 +11,12 @@ body{
 }
 
 .header-section{
-	padding-top:30px;
+	padding-top:97px;
+	margin-bottom:95px;
 }
 
 /*box to hold  generated text*/
 .generated-text{
-	border:2px solid white;
-
+	padding-left:5px;
+	text-align: center;
 }
